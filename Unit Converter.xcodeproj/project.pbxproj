@@ -12,6 +12,8 @@
 		83B788A91ECDCFC400C3C785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B788A71ECDCFC400C3C785 /* Main.storyboard */; };
 		83B788AB1ECDCFC400C3C785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B788AA1ECDCFC400C3C785 /* Assets.xcassets */; };
 		83B788AE1ECDCFC400C3C785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B788AC1ECDCFC400C3C785 /* LaunchScreen.storyboard */; };
+		83BCDB911ECF42CA00EF3F40 /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCDB901ECF42CA00EF3F40 /* UnitConverter.swift */; };
+		83BCDB931ECF447000EF3F40 /* TemperatureRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCDB921ECF447000EF3F40 /* TemperatureRange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		83B788AA1ECDCFC400C3C785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B788AD1ECDCFC400C3C785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B788AF1ECDCFC500C3C785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BCDB901ECF42CA00EF3F40 /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
+		83BCDB921ECF447000EF3F40 /* TemperatureRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		83B788971ECDCFC400C3C785 = {
 			isa = PBXGroup;
 			children = (
+				83BCDB901ECF42CA00EF3F40 /* UnitConverter.swift */,
+				83BCDB921ECF447000EF3F40 /* TemperatureRange.swift */,
 				83B788A21ECDCFC400C3C785 /* Unit Converter */,
 				83B788A11ECDCFC400C3C785 /* Products */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BCDB931ECF447000EF3F40 /* TemperatureRange.swift in Sources */,
+				83BCDB911ECF42CA00EF3F40 /* UnitConverter.swift in Sources */,
 				83B788A61ECDCFC400C3C785 /* ViewController.swift in Sources */,
 				83B788A41ECDCFC400C3C785 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +312,7 @@
 				83B788B41ECDCFC500C3C785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
